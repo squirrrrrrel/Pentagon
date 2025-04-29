@@ -7,6 +7,7 @@ import Usp from "./Components/Usp";
 import Faq from "./Components/Faq";
 import Cta from "./Components/Cta";
 import Footer from "./Components/Footer";
+import Test from "./Components/Test";
 function App() {
   return (
     <div>
@@ -19,6 +20,7 @@ function App() {
       <Faq />
       <Cta />
       <Footer />
+      {/* <Test /> */}
     </div>
   );
 }

@@ -46,7 +46,7 @@ const Navbar = () => {
               >
                 Discover
               </a>
-              <a href="" className="nav-link w-nav-link">
+              <a href="/" className="nav-link w-nav-link">
                 For Companies
               </a>
               <a href="/pricing" className="nav-link w-nav-link">
@@ -55,7 +55,7 @@ const Navbar = () => {
               <a href="/blog" className="nav-link w-nav-link">
                 Blog
               </a>
-              <a href="https://webflow.com/" className="nav-link w-nav-link">
+              <a href="/" className="nav-link w-nav-link">
                 Sign In
               </a>
               <div className="nav-button-wrapper">
