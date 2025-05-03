@@ -7,7 +7,7 @@ const Usp = () => {
       <section className="section-usp">
         <div className="w-layout-blockcontainer container w-container">
           <div className="section-heading-wrapper">
-            <Fade direction="up">
+            <Fade direction="up" triggerOnce="true">
               <div className="section-eyebrow">
                 <div className="eyebrow dark">
                   <img
@@ -21,7 +21,7 @@ const Usp = () => {
                 </div>
               </div>
             </Fade>
-            <Fade direction="up" delay={20}>
+            <Fade direction="up" delay={20} triggerOnce="true">
               <h2 className="section-heading">
                 Everything You Need for Smarter HR Management
               </h2>

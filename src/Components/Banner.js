@@ -11,6 +11,23 @@ const Banner = () => {
         <div className="w-layout-blockcontainer container w-container">
           <div className="hero-wrapper">
             <Fade direction="down">
+              <div className="w-layout-blockcontainer container w-container">
+                <div className="section-heading-wrapper">
+                  <div className="section-eyebrow">
+                    <Fade direction="up" triggerOnce="true">
+                      <div className="eyebrow">
+                        <img
+                          src="https://cdn.prod.website-files.com/67bd99d3867006d39432f40c/67bddd3e572a0851c9e7856b_icon_lightning_color.svg"
+                          loading="lazy"
+                          alt=""
+                          className="eyebrow-icon"
+                        />
+                        <div className="eyebrow-text">Key Benefits</div>
+                      </div>
+                    </Fade>
+                  </div>
+                </div>
+              </div>
               <h1 className="hero-heading" id="heading">
                 Streamline Your Hiring and HR Processess
               </h1>
