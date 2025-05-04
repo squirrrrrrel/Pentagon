@@ -17,18 +17,18 @@ const Usp = () => {
                     className="eyebrow-icon"
                   />
 
-                  <div className="eyebrow-text">Why Recruix?</div>
+                  <div className="eyebrow-text">Why Pentagon?</div>
                 </div>
               </div>
             </Fade>
             <Fade direction="up" delay={20} triggerOnce="true">
               <h2 className="section-heading">
-                Everything You Need for Smarter HR Management
+                Everything You Need to Transform Your Designs
               </h2>
               <p className="section-description inverted">
-                Our platform simplifies hiring, onboarding, and employee
-                management—so you can focus on what truly matters: growing your
-                team.
+                With Pentagon, you have access to all the tools necessary to
+                revolutionize your design process, from initial concept to final
+                execution.
               </p>
             </Fade>
           </div>
@@ -36,7 +36,7 @@ const Usp = () => {
           <div className="w-layout-grid usp-wrapper">
             <Fade direction="up" duration={400} triggerOnce="true">
               <div className="usp-card">
-                <h3 className="usp-title">AI-Driven Candidate Matching</h3>
+                <h3 className="usp-title">Seamless Collaboration</h3>
                 <img
                   src="https://cdn.prod.website-files.com/67bd99d3867006d39432f40c/67be9a3ab8698921ca015dcd_usp_1.webp"
                   loading="lazy"
@@ -45,7 +45,7 @@ const Usp = () => {
                 />
               </div>
               <div className="usp-card">
-                <h3 className="usp-title">Advanced Human Resource Analytics</h3>
+                <h3 className="usp-title">Comprehensive Data Visualization</h3>
                 <img
                   src="https://cdn.prod.website-files.com/67bd99d3867006d39432f40c/67be9a3a24e4d57b7bc30493_usp_2.webp"
                   loading="lazy"
@@ -54,7 +54,7 @@ const Usp = () => {
                 />
               </div>
               <div className="usp-card">
-                <h3 className="usp-title">Centralized Employee Hub</h3>
+                <h3 className="usp-title">Customization Options</h3>
                 <img
                   src="https://cdn.prod.website-files.com/67bd99d3867006d39432f40c/67be9a3ae6c9fd615bd727d1_usp_3.webp"
                   loading="lazy"

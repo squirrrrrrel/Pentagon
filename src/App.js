@@ -7,21 +7,56 @@ import Usp from "./Components/Usp";
 import Faq from "./Components/Faq";
 import Cta from "./Components/Cta";
 import Footer from "./Components/Footer";
-import Test from "./Components/Test";
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Pricing from "./Components/Pricing";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
+      <>
+        <Navbar />
+        <Banner />
+        <SectionBenefit />
+        <SectionFlow />
+        <Usp />
+        <Testimonial />
+        <Faq />
+        <Cta />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "/pricing",
+    element: (
+      <>
+        <Navbar />
+        <Pricing />
+        <Faq />
+        <Cta />
+        <Footer />
+      </>
+    ),
+  },
+  // {
+  //   path: "/blog",
+  //   element: (
+  //     <>
+  //       <Navbar />
+  //       <Blog />
+  //       <Cta />
+  //       <Footer />
+  //     </>
+  //   ),
+  // },
+]);
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Banner />
-      <SectionBenefit />
-      <SectionFlow />
-      <Usp />
-      <Testimonial />
-      <Faq />
-      <Cta />
-      <Footer />
-      {/* <Test /> */}
-    </div>
+    <>
+      <RouterProvider router={router} />
+    </>
   );
 }
 

@@ -16,3 +16,157 @@ h1 {
 .hero-heading {
   padding-top: 0%;
 }
+.cta-heading {
+  margin: 0px;
+  font-size: 30px;
+}
+.pricing-tab-link {
+  padding-bottom: 0%;
+}
+
+.top-navbar {
+  background-color: #2f2b43;
+}
+
+.top-navbar h6 {
+  padding: 3px;
+  color: #fff;
+}
+
+/* src/Pricing.css */
+
+.pricing-section {
+  padding: 4rem 1rem;
+  text-align: center;
+  background: #f5f7ff;
+}
+
+.pricing-header h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-header p {
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.billing-toggle {
+  display: inline-flex;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+.billing-toggle button {
+  padding: 0.5rem 1.5rem;
+  background: white;
+  border: none;
+  cursor: pointer;
+  color: #555;
+  font-weight: 500;
+}
+
+.billing-toggle button.active {
+  background: #3b49df;
+  color: white;
+}
+
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.plan-card {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.plan-card.popular {
+  border: 2px solid #3b49df;
+}
+
+.plan-card header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.badge {
+  background: #e2e9ff;
+  color: #3b49df;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.suffix {
+  font-size: 1rem;
+  color: #777;
+}
+
+.desc {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn.primary {
+  background: #3b49df;
+  color: white;
+  border: none;
+}
+
+.btn.outline {
+  background: white;
+  color: #3b49df;
+  border: 1px solid #3b49df;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #444;
+}
+
+.features li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.check-icon {
+  margin-right: 0.5rem;
+}

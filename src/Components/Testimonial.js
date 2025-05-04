@@ -30,7 +30,9 @@ const Testimonial = () => {
               data-w-id="f2c8c7d9-a54b-4feb-6efd-0c0f55a70c51"
               className="section-description"
             >
-              Trusted by HR teams worldwide—see how we’re making a difference.
+              Pentagon is proud to be trusted by industry leaders and innovators
+              around the globe. Our platform is used by top organizations that
+              demand the highest standards of quality and efficiency.
             </p>
           </div>
           <div
@@ -47,8 +49,10 @@ const Testimonial = () => {
                 className="testimonial-logo"
               />
               <div className="testimonial-quote">
-                This platform completely transformed our hiring process. We can
-                now find top talent in half the time!
+                Pentagon has revolutionized the way we approach interior design
+                projects. The ability to seamlessly convert 2D images into 3D
+                models has elevated our presentations and impressed our clients
+                beyond measure.
               </div>
               <div className="testimonial-author-wrapper">
                 <img
@@ -57,9 +61,9 @@ const Testimonial = () => {
                   alt="Jessica M"
                   className="testimonial-author-photo"
                 />
-                <div className="testimonial-author-name">Jessica M</div>
+                <div className="testimonial-author-name">Sarah K</div>
                 <div className="testimonial-author-occupation">
-                  HR Manager at TechNova
+                  Senior Interior Designer
                 </div>
               </div>
             </div>
@@ -73,8 +77,10 @@ const Testimonial = () => {
                 className="testimonial-logo"
               />
               <div className="testimonial-quote">
-                Managing payroll and employee records has never been easier.
-                Everything is automated, saving us hours every week!
+                Collaborating with our HR department has never been easier.
+                Pentagon’s advanced analytics and streamlined tools have
+                transformed our management processes, making them more efficient
+                and insightful.
               </div>
               <div className="testimonial-author-wrapper">
                 <img
@@ -83,10 +89,8 @@ const Testimonial = () => {
                   alt="David L"
                   className="testimonial-author-photo"
                 />
-                <div className="testimonial-author-name">David L</div>
-                <div className="testimonial-author-occupation">
-                  Operations Director at SwiftSolutions
-                </div>
+                <div className="testimonial-author-name">Michael L</div>
+                <div className="testimonial-author-occupation">HR Manager</div>
               </div>
             </div>
             <div className="testimonial-card">
@@ -99,8 +103,9 @@ const Testimonial = () => {
                 className="testimonial-logo"
               />
               <div className="testimonial-quote">
-                Seamless onboarding, powerful analytics, and a user-friendly
-                interface—this is the HR tool we’ve been looking for!
+                Data security is paramount in our industry, and Pentagon's
+                robust security measures give us the peace of mind we need to
+                focus on creativity and innovation.
               </div>
               <div className="testimonial-author-wrapper">
                 <img
@@ -109,9 +114,9 @@ const Testimonial = () => {
                   alt="Amanda R"
                   className="testimonial-author-photo"
                 />
-                <div className="testimonial-author-name">Amanda R</div>
+                <div className="testimonial-author-name">Ahmed S</div>
                 <div className="testimonial-author-occupation">
-                  Talent Acquisition Lead at GrowthHub
+                  IT Specialist
                 </div>
               </div>
             </div>

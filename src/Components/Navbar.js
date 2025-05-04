@@ -1,8 +1,13 @@
 import React from "react";
+import Marquee from "react-fast-marquee";
 import "../css/Banner.css";
+
 const Navbar = () => {
   return (
     <>
+      <Marquee className="top-navbar" speed={160}>
+        <h6>hire</h6>
+      </Marquee>
       <div
         data-animation="default"
         className="navbar w-nav"

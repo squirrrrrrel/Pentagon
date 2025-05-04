@@ -17,12 +17,13 @@ const Cta = () => {
                     className="cta-logo"
                   />
                   <h2 className="cta-heading">
-                    Ready to Transform Your HR Process?
+                    Ready to Transform Your Design Process with Pentagon?
                   </h2>
                   <p className="cta-description">
-                    Say goodbye to manual work and hello to effortless HR
-                    management. From hiring to payroll, we’ve got you
-                    covered—all in one powerful platform.
+                    Discover how Pentagon can revolutionize the way you approach
+                    interior design. Our platform integrates cutting-edge
+                    technology to elevate your projects and streamline your
+                    workflows.
                   </p>
                   <div className="cta-form ">
                     <form className="cta-form-wrapper">

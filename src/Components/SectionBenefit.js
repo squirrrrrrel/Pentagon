@@ -22,11 +22,12 @@ const SectionBenefit = () => {
             </div>
             <Fade direction="up" triggerOnce="true">
               <h2 className="section-heading">
-                Empower Your HR Process with Smart &amp; Seamless Solutions
+                Experience Cutting-Edge Design with Pentago
               </h2>
               <p className="section-description">
-                From hiring top talent to managing employees
-                effortlessly—everything you need, all in one place.
+                Welcome to Pentagon, where design meets immersive 3D reality.
+                Empower architects and clients with seamless, collaborative
+                tools for reimagining spaces.
               </p>
             </Fade>
           </div>
@@ -40,10 +41,14 @@ const SectionBenefit = () => {
                   alt=""
                   className="benefit-icon"
                 />
-                <h3 className="benefit-card-title">Effortless Hiring</h3>
+                <h3 className="benefit-card-title">
+                  Seamless Image to 3D Conversion
+                </h3>
                 <p className="benefit-description">
-                  Find and recruit top talent quickly with a streamlined hiring
-                  process.
+                  Effortlessly upload your 2D layouts or photos. Watch as
+                  Pentagon's advanced technology transforms them into
+                  breathtaking 3D environments, fully interactive and ready for
+                  exploration.
                 </p>
               </div>
               <div className="benefit-card">
@@ -53,10 +58,14 @@ const SectionBenefit = () => {
                   alt=""
                   className="benefit-icon"
                 />
-                <h3 className="benefit-card-title">Smart Applicant Tracking</h3>
+                <h3 className="benefit-card-title">
+                  Customization and Flexibility
+                </h3>
                 <p className="benefit-description">
-                  Track every step of the hiring process, from start to
-                  onboarding, with ease.
+                  Personalize every aspect of the design. Experiment with
+                  diverse materials, color palettes, and furniture placements to
+                  craft spaces that align perfectly with individual tastes and
+                  visions.
                 </p>
               </div>
               <div className="benefit-card">
@@ -66,12 +75,11 @@ const SectionBenefit = () => {
                   alt=""
                   className="benefit-icon"
                 />
-                <h3 className="benefit-card-title">
-                  Seamless Employee Management
-                </h3>
+                <h3 className="benefit-card-title">Multi-Device Access</h3>
                 <p className="benefit-description">
-                  Manage employee records, and performance in a intuitive
-                  dashboard.
+                  Maintain project momentum wherever you are. Access design
+                  projects with ease, whether you're on a desktop or mobile
+                  device, ensuring ultimate flexibility and convenience.
                 </p>
               </div>
             </Fade>
@@ -84,10 +92,13 @@ const SectionBenefit = () => {
                   className="benefit-icon"
                 />
                 <h3 className="benefit-card-title">
-                  Payroll &amp; Benefits Simplified
+                  Client-Centric Visualization
                 </h3>
                 <p className="benefit-description">
-                  Automate payroll to ensure accuracy and employee satisfaction.
+                  Deliver true-to-life virtual experiences. Allow clients to
+                  walk through potential designs of their homes or office
+                  interiors in virtual reality, simplifying comprehension and
+                  enhancing appreciation of your creative concepts.
                 </p>
               </div>
               <div className="benefit-card">
@@ -97,10 +108,14 @@ const SectionBenefit = () => {
                   alt=""
                   className="benefit-icon"
                 />
-                <h3 className="benefit-card-title">Direct Communication</h3>
+                <h3 className="benefit-card-title">
+                  Collaboration and Sharing
+                </h3>
                 <p className="benefit-description">
-                  Connect with candidates instantly through an integrated chat
-                  system.
+                  Boost teamwork and client engagement. Utilize tools designed
+                  for real-time design reviews and modifications. Share projects
+                  with clients and stakeholders seamlessly for instant feedback
+                  and streamlined approvals.
                 </p>
               </div>
 
@@ -111,11 +126,12 @@ const SectionBenefit = () => {
                   alt=""
                   className="benefit-icon"
                 />
-                <h3 className="benefit-card-title">
-                  Actionable Insights &amp; Reports
-                </h3>
+                <h3 className="benefit-card-title">Secure and Private</h3>
                 <p className="benefit-description">
-                  Gain data-driven insights to make smarter HR decisions.
+                  Trust in Pentagon’s commitment to security. Our robust
+                  measures protect sensitive information and guarantee
+                  confidentiality in all client interactions, keeping your data
+                  safe.
                 </p>
               </div>
             </Fade>

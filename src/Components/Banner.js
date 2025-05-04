@@ -29,13 +29,14 @@ const Banner = () => {
                 </div>
               </div>
               <h1 className="hero-heading" id="heading">
-                Streamline Your Hiring and HR Processess
+                Pentagon: Experience Space Like Never Before
               </h1>
             </Fade>
             <Fade direction="up" delay={15}>
               <p className="hero-paragraph">
-                Manage job postings, track applicants, and enhance employee
-                experience—all in one place.
+                Our platform utilizes cutting-edge virtual reality technology to
+                transform 2D images into breathtaking 3D models, offering
+                clients a truly immersive preview of their envisioned spaces.
               </p>
             </Fade>
 

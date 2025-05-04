@@ -20,11 +20,11 @@ const SectionFlow = () => {
                   </div>
                 </div>
                 <h2 className="section-heading">
-                  Simplify Hiring &amp; HR Management in Just a Few Steps
+                  Simplify Your Work in Just a Few Steps with Pentagon
                 </h2>
                 <p className="section-description">
-                  From posting jobs to managing employees—our platform makes
-                  every step effortless.
+                  Unlock efficiency and ease with Pentagon, designed to
+                  streamline your workflow and boost productivity effortlessly.
                 </p>
               </div>
               <div className="timeline-wrapper">
@@ -37,9 +37,10 @@ const SectionFlow = () => {
                     <div className="timeline-indicator-mask"></div>
                   </div>
                   <div className="timeline-content-wrapper">
-                    <div className="timeline-title">Create Job Listing</div>
+                    <div className="timeline-title"> Upload Your Design</div>
                     <div className="timeline-subtitle">
-                      Post open positions and set hiring preferences.
+                      Begin by easily uploading your 2D layouts or photos,
+                      setting the stage for transformation.
                     </div>
                   </div>
                 </div>
@@ -53,9 +54,10 @@ const SectionFlow = () => {
                     <div className="timeline-indicator-mask"></div>
                   </div>
                   <div className="timeline-content-wrapper">
-                    <div className="timeline-title">Manage Applicantions</div>
+                    <div className="timeline-title">Transform to 3D</div>
                     <div className="timeline-subtitle">
-                      Track candidate progress and schedule interviews.
+                      Pentagon converts your designs into vibrant, interactive
+                      3D models, ready for exploration and enhancement.
                     </div>
                   </div>
                 </div>
@@ -68,11 +70,10 @@ const SectionFlow = () => {
                     <div className="timeline-indicator-mask"></div>
                   </div>
                   <div className="timeline-content-wrapper">
-                    <div className="timeline-title">
-                      Streamline HR Operations
-                    </div>
+                    <div className="timeline-title">Collaborate and Refine</div>
                     <div className="timeline-subtitle">
-                      Maintain employee records and streamline payroll.
+                      Engage with your team and clients through real-time
+                      collaboration.
                     </div>
                   </div>
                 </div>
