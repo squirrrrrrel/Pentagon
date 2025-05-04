@@ -33,7 +33,7 @@ const SectionBenefit = () => {
           </div>
 
           <div className="w-layout-grid benefit-grid">
-            <Fade direction="up">
+            <Fade direction="up" triggerOnce="true">
               <div className="benefit-card">
                 <img
                   src="https://cdn.prod.website-files.com/67bd99d3867006d39432f40c/67bde1f82aa014b6c07f624c_icon_benefit_1.svg"
@@ -83,7 +83,7 @@ const SectionBenefit = () => {
                 </p>
               </div>
             </Fade>
-            <Fade direction="up">
+            <Fade direction="up" triggerOnce="true">
               <div className="benefit-card">
                 <img
                   src="https://cdn.prod.website-files.com/67bd99d3867006d39432f40c/67bde1f83ad5b4a19101931c_icon_benefit_4.svg"
