@@ -228,7 +228,7 @@ const Footer = () => {
           <div className="w-layout-blockcontainer container w-container">
             <div className="copyright-wrapper">
               <div className="copyright-text">
-                © 2025 VR. Powered by
+                © 2025 Pentagon. Powered by
                 <a href="" className="copyright-link">
                   Squirrel
                 </a>
