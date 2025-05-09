@@ -1,6 +1,7 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import "../css/Banner.css";
+import logo from "../image/1.png";
 
 const Navbar = () => {
   return (
@@ -32,7 +33,7 @@ const Navbar = () => {
               className="nav-brand-link w-nav-brand w--current"
             >
               <img
-                src="https://cdn.prod.website-files.com/67bd99d3867006d39432f40c/67c12e6fe4a554a3012192a4_navbar_logo.svg"
+                src={logo}
                 loading="eager"
                 width="32"
                 height="32"
@@ -40,7 +41,7 @@ const Navbar = () => {
                 className="nav-image-logo-gram"
               />
               <img
-                src="https://cdn.prod.website-files.com/67bd99d3867006d39432f40c/67c07e566d8e8be6771baf9f_footer_logo.svg"
+                src={logo}
                 loading="eager"
                 width="161"
                 height="48"
@@ -58,7 +59,11 @@ const Navbar = () => {
               <a href="/blog" className="nav-link w-nav-link">
                 Blog
               </a>
+<<<<<<< HEAD
               <a href="/signin" className="nav-link w-nav-link">
+=======
+              <a href="/SignUp" className="nav-link w-nav-link">
+>>>>>>> a3b6f53e8b25cfc5997a2b8f5acd45acb14f7d4a
                 Sign In
               </a>
               <div className="nav-button-wrapper">
