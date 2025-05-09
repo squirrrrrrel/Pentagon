@@ -22,7 +22,7 @@ const Banner = () => {
                           alt=""
                           className="eyebrow-icon"
                         />
-                        <div className="eyebrow-text">Key Benefits</div>
+                        <div className="eyebrow-text">Pentagon</div>
                       </div>
                     </Fade>
                   </div>

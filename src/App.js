@@ -25,6 +25,7 @@ const router = createBrowserRouter([
         <Faq />
         <Cta />
         <Footer />
+        {/* <SignInPage /> */}
       </>
     ),
   },
@@ -40,17 +41,6 @@ const router = createBrowserRouter([
       </>
     ),
   },
-  // {
-  //   path: "/blog",
-  //   element: (
-  //     <>
-  //       <Navbar />
-  //       <Blog />
-  //       <Cta />
-  //       <Footer />
-  //     </>
-  //   ),
-  // },
 ]);
 function App() {
   return (

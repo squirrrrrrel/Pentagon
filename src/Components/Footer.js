@@ -1,5 +1,8 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
+import f1 from "../image/Pentagon.png";
+import "../css/Banner.css";
+import logo from "../image/logo (2).png";
 const Footer = () => {
   return (
     <>
@@ -14,12 +17,14 @@ const Footer = () => {
                       href="#footer"
                       className="footer-logo-link w-inline-block"
                     >
-                      <img
-                        src="https://cdn.prod.website-files.com/67bd99d3867006d39432f40c/67c07e566d8e8be6771baf9f_footer_logo.svg"
-                        loading="lazy"
-                        alt="Recruix logo"
-                        className="footer-logo"
-                      />
+                      <div className="footer-logo">
+                        <img
+                          src={logo}
+                          loading="lazy"
+                          alt="Recruix logo"
+                          className="footer-logo"
+                        />
+                      </div>
                     </a>
                   </Fade>
                   <p className="footer-description">
@@ -214,7 +219,7 @@ const Footer = () => {
           <div className="mega-logo-wrapper">
             <Fade direction="up">
               <img
-                src="https://cdn.prod.website-files.com/67bd99d3867006d39432f40c/67c086d57c2b0582c9b0ef20_footer_mega_logo.svg"
+                src={f1}
                 loading="lazy"
                 width="1397"
                 height="212"
