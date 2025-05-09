@@ -59,11 +59,7 @@ const Navbar = () => {
               <a href="/blog" className="nav-link w-nav-link">
                 Blog
               </a>
-<<<<<<< HEAD
               <a href="/signin" className="nav-link w-nav-link">
-=======
-              <a href="/SignUp" className="nav-link w-nav-link">
->>>>>>> a3b6f53e8b25cfc5997a2b8f5acd45acb14f7d4a
                 Sign In
               </a>
               <div className="nav-button-wrapper">

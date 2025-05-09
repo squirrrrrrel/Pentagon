@@ -42,7 +42,6 @@ const router = createBrowserRouter([
       </>
     ),
   },
-<<<<<<< HEAD
   {
     path: "*",
     element: (
@@ -64,8 +63,6 @@ const router = createBrowserRouter([
   //     </>
   //   ),
   // },
-=======
->>>>>>> a3b6f53e8b25cfc5997a2b8f5acd45acb14f7d4a
 ]);
 function App() {
   return (
