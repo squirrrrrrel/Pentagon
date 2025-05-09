@@ -31,6 +31,12 @@ h1 {
 .top-navbar h6 {
   padding: 3px;
   color: #fff;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: grid;
+  place-items: center;
+  line-height: none;
+  margin-top: 4px;
 }
 
 /* src/Pricing.css */

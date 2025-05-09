@@ -6,7 +6,12 @@ const Navbar = () => {
   return (
     <>
       <Marquee className="top-navbar" speed={160}>
-        <h6>hire</h6>
+        <h6>Simplify Your Work in Just a Few Steps with Pentagon</h6>
+        <h6>It is Best for you and your work</h6>
+        <h6>Simplify Your Work in Just a Few Steps with Pentagon</h6>
+        <h6>It is Best for you and your work</h6>
+        <h6>Simplify Your Work in Just a Few Steps with Pentagon</h6>
+        <h6>It is Best for you and your work</h6>
       </Marquee>
       <div
         data-animation="default"
@@ -44,15 +49,8 @@ const Navbar = () => {
               />
             </a>
             <nav role="navigation" className="nav-menu w-nav-menu">
-              <a
-                href="/"
-                aria-current="page"
-                className="nav-link w-nav-link w--current"
-              >
-                Discover
-              </a>
               <a href="/" className="nav-link w-nav-link">
-                For Companies
+                Home
               </a>
               <a href="/pricing" className="nav-link w-nav-link">
                 Pricing
@@ -60,7 +58,7 @@ const Navbar = () => {
               <a href="/blog" className="nav-link w-nav-link">
                 Blog
               </a>
-              <a href="/" className="nav-link w-nav-link">
+              <a href="/signin" className="nav-link w-nav-link">
                 Sign In
               </a>
               <div className="nav-button-wrapper">

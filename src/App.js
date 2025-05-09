@@ -10,6 +10,7 @@ import Footer from "./Components/Footer";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Pricing from "./Components/Pricing";
+import Error from "./Components/Error";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,16 @@ const router = createBrowserRouter([
         <Pricing />
         <Faq />
         <Cta />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "*",
+    element: (
+      <>
+        <Navbar />
+        <Error />
         <Footer />
       </>
     ),
