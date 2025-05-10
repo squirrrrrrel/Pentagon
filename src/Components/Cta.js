@@ -1,5 +1,6 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
+import logo from "../image/logo (2).png";
 
 const Cta = () => {
   return (
@@ -11,7 +12,7 @@ const Cta = () => {
               <div className="cta-card">
                 <div className="section-heading-wrapper">
                   <img
-                    src="https://cdn.prod.website-files.com/67bd99d3867006d39432f40c/67bf0fe3829be43edd994cde_cta_logo.svg"
+                    src={logo}
                     loading="lazy"
                     alt="Recruix logo"
                     className="cta-logo"
